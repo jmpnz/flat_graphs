@@ -1,6 +1,6 @@
 # Flattening Graphs
 
-This is a Rust implementation of a directed graph data structured that's flat
+This is a Rust implementation of a directed graph data structure that's flat
 by flat we mean it is stored as `Vec<Node>` and uses strongly typed `NodeRef`
 as pointers.
 
