@@ -7,8 +7,8 @@ By flat we mean it is stored as `Vec<Node>` and uses strongly a typed index
 The implementation is inspired by a similar model for ASTs[^1] graphs are
 pervasive in compilers and program analysis (lifting assembly to a graph based
 IL for example). This model allows building graphs without much gymnastics around
-the borrow checker. To learn more about how graphs play a role in compiler
-there's a nice set of notes in [^2]
+the borrow checker. To learn more about how graphs play a role in optimizing
+compilers or compilers in general there's a nice set of notes in [^2]
 
 The code is pretty bare bones and was written to remind myself for the nth time
 of how to implement this type of data structures. Making it generic with arenas
