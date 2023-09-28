@@ -2,7 +2,7 @@
 
 This is a Rust implementation of a directed graph data structure that's flat.
 By flat we mean it is stored as `Vec<Node>` and uses strongly a typed index
-`NodeRef`as pointers.
+`NodeRef` which wraps a `usize` for pointers.
 
 The implementation is inspired by a similar model for ASTs[^1] graphs are
 pervasive in compilers and program analysis (lifting assembly to an IL graph
